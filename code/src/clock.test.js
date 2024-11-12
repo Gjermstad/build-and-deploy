@@ -9,6 +9,6 @@ test('getTimeString formats time string correctly', () => {
 test('getSecondsLeftOfYear returns the correct amount of seconds', () => {
     const now = new Date("2022-12-31T23:00:00.000Z");
     const timeString = getSecondsLeftOfYear(now);
-    expect(timeString).toBe(3500);
+    expect(timeString).toBe(3600);
 });
 
